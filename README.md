@@ -1,5 +1,5 @@
 # [Ghost 4.X](https://github.com/TryGhost/Ghost) on [Heroku](https://heroku.com)
-> Notice: If you are getting a Heroku policy error please refer to this [discussion](https://github.com/thelovekesh/ghost-v4-on-heroku/discussions/24).
+
 
 Ghost is world's most popular modern publishing platform for creating a new media platform. It has been used by Apple, SkyNews, Buffer, OpenAI, and thousands more.
 You can visit the project's website at <a href="https://ghost.org/" target="_blank">https://ghost.org</a>, or read the docs on <a href="https://ghost.org/docs" target="_blank">https://ghost.org/docs</a>.
@@ -11,7 +11,7 @@ You can visit the project's website at <a href="https://ghost.org/" target="_bla
 > I am available to work with individuals or companies who are looking to build their blazingly super-fast publishing platform. [Contact-Me](https://bit.ly/getfastblog)
 
 
-If the above button does not work for you, disable anything that might be blocking Heroku from inferring the referrer (e.g. Brave shield), or try this: https://heroku.com/deploy?template=https://github.com/thelovekesh/ghost-v4-on-heroku (if you're using a fork, make sure to point the template link to your repo).
+If the above button does not work for you, disable anything that might be blocking Heroku from inferring the referrer (e.g. Brave shield), or try this: https://github.com/goodcrafter-web/ghost-v4-on-heroku (if you're using a fork, make sure to point the template link to your repo).
 
 **NOTE**: we do _not_ support deploying by downloading the source file or by copying over a cloned folder. Downloading/copying folders tends to break symlinks, so we recommend that you deploy by clicking the button in this repository or your fork on GitHub.
 
@@ -47,20 +47,6 @@ A more permanent solution would be to use a custom domain and verify your domain
 
 FYI: You can access mailgun dashboard by visiting heroku dashboard > click on your app > resources tab > click on mailgun addon.
 
-### Chnage Config Vars Value in Heroku
-How can I change the value of `APP_PUBLIC_URL`, `MAILGUN_API_KEY`, `MAILGUN_DOMAIN`, `MAILGUN_PUBLIC_KEY`, `MAILGUN_SMTP_LOGIN`, `MYSQL_DATABASE_URL or JAWSDB_URL`, `S3_ACCESS_KEY_ID` ...etc?
-You cannot change the value in the `config.production.json` but you can change the values using the `Heroku CLI` or `Heroku Dashboard`.
-For more information read <a href="https://lovekesh.tech/how-to-create-update-and-delete-config-vars-in-the-heroku-app/" target="_blank">here</a>
 
-### Disclaimer
 
-This repo has some blocks of open-source code. I have taken that code from the repositories of the previous version of ghost deployment on Heroku. 
-
-### Problems or need help?
-- [Ask Question](https://ask.codebulbs.com/)
-- [Open an Issue](https://github.com/thelovekesh/ghost-v4-on-heroku/issues/new/)
-- [Use GitHub Discussions](https://github.com/thelovekesh/ghost-v4-on-heroku/discussions)
-
-### License
-Released under the [MIT license](https://github.com/thelovekesh/ghost-v4-on-heroku/blob/main/LICENSE), just like the Ghost project itself.
 
